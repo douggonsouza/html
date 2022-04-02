@@ -7,4 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'douggonsouza\\pages\\bookmark' => $baseDir . '/src/bookmark.php',
+    'douggonsouza\\pages\\tags\\input' => $baseDir . '/src/tags/input.php',
+    'douggonsouza\\pages\\tags\\tagsInterface' => $baseDir . '/src/tags/tagsInterface.php',
+    'douggonsouza\\pages\\tags\\text' => $baseDir . '/src/tags/text.php',
+    'douggonsouza\\propertys\\propertys' => $vendorDir . '/douggonsouza/propertys/src/propertys.php',
+    'douggonsouza\\propertys\\propertysInterface' => $vendorDir . '/douggonsouza/propertys/src/propertysInterface.php',
 );

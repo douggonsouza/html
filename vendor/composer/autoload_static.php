@@ -27,6 +27,12 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'douggonsouza\\pages\\bookmark' => __DIR__ . '/../..' . '/src/bookmark.php',
+        'douggonsouza\\pages\\tags\\input' => __DIR__ . '/../..' . '/src/tags/input.php',
+        'douggonsouza\\pages\\tags\\tagsInterface' => __DIR__ . '/../..' . '/src/tags/tagsInterface.php',
+        'douggonsouza\\pages\\tags\\text' => __DIR__ . '/../..' . '/src/tags/text.php',
+        'douggonsouza\\propertys\\propertys' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertys.php',
+        'douggonsouza\\propertys\\propertysInterface' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertysInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
