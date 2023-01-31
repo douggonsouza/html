@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'douggonsouza/pages',
+        'name' => 'douggonsouza/html',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '7d503d8941f6d210b5f392876a7ac20554016b0c',
+        'reference' => '2af3635b8b2b3f57b2bd856bf87d3c1fed1811b4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'douggonsouza/pages' => array(
+        'douggonsouza/html' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7d503d8941f6d210b5f392876a7ac20554016b0c',
+            'reference' => '2af3635b8b2b3f57b2bd856bf87d3c1fed1811b4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'douggonsouza/propertys' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '0e04490ef814f83f4e784e0c697970a8daba83a6',
+            'reference' => 'ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../douggonsouza/propertys',
             'aliases' => array(
