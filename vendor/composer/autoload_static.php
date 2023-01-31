@@ -9,16 +9,11 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
     public static $prefixLengthsPsr4 = array (
         'd' => 
         array (
-            'douggonsouza\\propertys\\' => 23,
             'douggonsouza\\html\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'douggonsouza\\propertys\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/douggonsouza/propertys/src',
-        ),
         'douggonsouza\\html\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -31,8 +26,6 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
         'douggonsouza\\html\\tags\\input' => __DIR__ . '/../..' . '/src/tags/input.php',
         'douggonsouza\\html\\tags\\tagsInterface' => __DIR__ . '/../..' . '/src/tags/tagsInterface.php',
         'douggonsouza\\html\\tags\\text' => __DIR__ . '/../..' . '/src/tags/text.php',
-        'douggonsouza\\propertys\\propertys' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertys.php',
-        'douggonsouza\\propertys\\propertysInterface' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertysInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

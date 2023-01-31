@@ -4,53 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba41177926b1e502a00518eb1fd5a0e6",
-    "packages": [
-        {
-            "name": "douggonsouza/propertys",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/douggonsouza/propertys.git",
-                "reference": "ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf",
-                "reference": "ebd7471bf7279f2e2520c6b7eadfcf6171ab47cf",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "douggonsouza\\propertys\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Douglas Gonçalves de Souza",
-                    "email": "douggonsouza@gmail.com"
-                }
-            ],
-            "description": "Armazenagem das propriedades",
-            "support": {
-                "issues": "https://github.com/douggonsouza/propertys/issues",
-                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.4"
-            },
-            "time": "2022-09-16T23:56:11+00:00"
-        }
-    ],
+    "content-hash": "411f5f07c6dc8cd930cb069b95428c09",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "douggonsouza/propertys": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

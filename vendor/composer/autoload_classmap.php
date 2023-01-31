@@ -11,6 +11,4 @@ return array(
     'douggonsouza\\html\\tags\\input' => $baseDir . '/src/tags/input.php',
     'douggonsouza\\html\\tags\\tagsInterface' => $baseDir . '/src/tags/tagsInterface.php',
     'douggonsouza\\html\\tags\\text' => $baseDir . '/src/tags/text.php',
-    'douggonsouza\\propertys\\propertys' => $vendorDir . '/douggonsouza/propertys/src/propertys.php',
-    'douggonsouza\\propertys\\propertysInterface' => $vendorDir . '/douggonsouza/propertys/src/propertysInterface.php',
 );
