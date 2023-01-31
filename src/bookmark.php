@@ -1,8 +1,8 @@
 <?php
 
-namespace douggonsouza\pages;
+namespace douggonsouza\html;
 
-use douggonsouza\pages\tags\tagsInterface;
+use douggonsouza\html\tags\tagsInterface;
 
 abstract class bookmark
 {

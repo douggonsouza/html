@@ -1,8 +1,8 @@
 <?php
 
-namespace douggonsouza\pages\tags;
+namespace douggonsouza\html\tags;
 
-use douggonsouza\pages\tags\tagsInterface;
+use douggonsouza\html\tags\tagsInterface;
 use douggonsouza\propertys\propertysInterface;
 
 class input implements tagsInterface

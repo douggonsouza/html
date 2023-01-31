@@ -1,6 +1,6 @@
 <?php
 
-namespace douggonsouza\pages\tags;
+namespace douggonsouza\html\tags;
 
 use douggonsouza\propertys\propertysInterface;
 

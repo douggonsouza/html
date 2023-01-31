@@ -10,7 +10,7 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
         'd' => 
         array (
             'douggonsouza\\propertys\\' => 23,
-            'douggonsouza\\pages\\' => 19,
+            'douggonsouza\\html\\' => 18,
         ),
     );
 
@@ -19,7 +19,7 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/propertys/src',
         ),
-        'douggonsouza\\pages\\' => 
+        'douggonsouza\\html\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,10 +27,10 @@ class ComposerStaticInitc8b6d4e7164ec4ddf84564cbf39468a8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'douggonsouza\\pages\\bookmark' => __DIR__ . '/../..' . '/src/bookmark.php',
-        'douggonsouza\\pages\\tags\\input' => __DIR__ . '/../..' . '/src/tags/input.php',
-        'douggonsouza\\pages\\tags\\tagsInterface' => __DIR__ . '/../..' . '/src/tags/tagsInterface.php',
-        'douggonsouza\\pages\\tags\\text' => __DIR__ . '/../..' . '/src/tags/text.php',
+        'douggonsouza\\html\\bookmark' => __DIR__ . '/../..' . '/src/bookmark.php',
+        'douggonsouza\\html\\tags\\input' => __DIR__ . '/../..' . '/src/tags/input.php',
+        'douggonsouza\\html\\tags\\tagsInterface' => __DIR__ . '/../..' . '/src/tags/tagsInterface.php',
+        'douggonsouza\\html\\tags\\text' => __DIR__ . '/../..' . '/src/tags/text.php',
         'douggonsouza\\propertys\\propertys' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertys.php',
         'douggonsouza\\propertys\\propertysInterface' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertysInterface.php',
     );
