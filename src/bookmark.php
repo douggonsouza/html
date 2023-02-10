@@ -2,46 +2,60 @@
 
 namespace douggonsouza\html;
 
-use douggonsouza\html\tags\tagsInterface;
+use douggonsouza\html\tags\div;
+use douggonsouza\html\tags\input;
+use douggonsouza\html\tags\label;
+use douggonsouza\html\tags\small;
+use douggonsouza\html\tags\textInline;
 
 abstract class bookmark
-{
-    protected $tag;
-    
+{    
     /**
-     * Exporta string da tag
+     * Method propertys
      *
-     * @param tagsInterface $tag
-     * 
-     * @return string
-     * 
+     * @param array $propertys [explicite description]
+     * @param string $str [explicite description]
+     *
+     * @return void
      */
-    public static function tag(tagsInterface $tag)
+    public static function formatToAttributes(array $propertys, string $str = null)
     {
-        self::setTag($tag);
-        return self::getTag();
-    }
-
-    /**
-     * Get the value of tag
-     */ 
-    public function getTag()
-    {
-        return $this->tag;
-    }
-
-    /**
-     * Set the value of tag
-     *
-     * @return  self
-     */ 
-    public function setTag($tag)
-    {
-        if(isset($tag) && !empty($tag)){
-            $this->tag = $tag;
+        if(!isset($propertys) || empty($propertys)){
+            return null;
         }
 
-        return $this;
+        foreach($propertys as $key => $value){
+            if(isset($value)){
+                $str .= $key . '="' . $value . '"';
+            }
+        }
+
+        return $str;
+    }
+
+    static function div(array $propertys, string $content = null)
+    {
+        return new div($propertys, $content);
+    }
+
+    static function input(array $propertys, array $events = null)
+    {
+        return new input($propertys, $events);
+    }
+
+    static function label(array $propertys, string $content)
+    {
+        return new label($propertys, $content);
+    }
+
+    static function small(array $propertys, string $content)
+    {
+        return new small($propertys, $content);
+    }
+
+    static function textInline(string $name, string $label, $value = null, string $smallDescription = null)
+    {
+        return new textInline($name, $label, $value, $smallDescription);
     }
 }
 

@@ -8,7 +8,11 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'douggonsouza\\html\\bookmark' => $baseDir . '/src/bookmark.php',
+    'douggonsouza\\html\\tags\\div' => $baseDir . '/src/tags/div.php',
     'douggonsouza\\html\\tags\\input' => $baseDir . '/src/tags/input.php',
+    'douggonsouza\\html\\tags\\label' => $baseDir . '/src/tags/label.php',
+    'douggonsouza\\html\\tags\\small' => $baseDir . '/src/tags/small.php',
     'douggonsouza\\html\\tags\\tagsInterface' => $baseDir . '/src/tags/tagsInterface.php',
     'douggonsouza\\html\\tags\\text' => $baseDir . '/src/tags/text.php',
+    'douggonsouza\\html\\tags\\textInline' => $baseDir . '/src/tags/textInline.php',
 );

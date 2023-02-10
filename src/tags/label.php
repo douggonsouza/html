@@ -5,11 +5,11 @@ namespace douggonsouza\html\tags;
 use douggonsouza\html\bookmark;
 use douggonsouza\html\tags\tagsInterface;
 
-class input implements tagsInterface
+class label implements tagsInterface
 {
     protected $propertys;
-    protected $events;
-    protected $tag = '<input%s%s/>';
+    protected $content;
+    protected $tag = '<label%s>%s</label>';
     
     /**
      * Method __construct
@@ -19,10 +19,10 @@ class input implements tagsInterface
      *
      * @return void
      */
-    public function __construct(array $propertys, array $events = null)
+    public function __construct(array $propertys, string $content)
     {
         $this->setPropertys($propertys);
-        $this->setEvents($events);
+        $this->setContent($content);
     }
 
     /**
@@ -37,12 +37,11 @@ class input implements tagsInterface
         $this->setTag($tag);
         
         $propertys = bookmark::formatToAttributes($this->getPropertys());
-        $events    = bookmark::formatToAttributes($this->getEvents());
 
         return sprintf(
             $this->getTag(),
             isset($propertys)? ' '.$propertys: null,
-            isset($events)? ' '.$events: null
+            isset($this->content)? ' '.$this->getContent(): null
         );
     }
 
@@ -91,24 +90,28 @@ class input implements tagsInterface
     }
 
     /**
-     * Get the value of events
+     * Get the value of content
      */ 
-    public function getEvents()
+    public function getContent()
     {
-        return $this->events;
+        return $this->content;
     }
 
     /**
-     * Set the value of events
+     * Set the value of content
      *
      * @return  self
      */ 
-    public function setEvents($events)
+    public function setContent($content)
     {
-        if(isset($events) && !empty($events)){
-            $this->events = $events;
+        if(isset($content) && !empty($content)){
+            if($this->content === null){
+                $this->content = $content;
+                return $this;
+            }
+            $this->content .= "\r\n" . $content;
         }
-
+        
         return $this;
     }
 }

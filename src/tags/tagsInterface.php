@@ -7,26 +7,12 @@ use douggonsouza\propertys\propertysInterface;
 interface tagsInterface
 {
     /**
-     * Evento construtor da classe
+     * Method tag : Prepara html para a tag
      *
-     * @param propertys $propertys
-     * 
-     */
-    public function __construct(propertysInterface $propertys);
-
-    /**
-     * Exporta string da tag
+     * @param string $tag - nova string para a tag html
      *
      * @return string
-     * 
      */
-    public function toString();
-
-    /**
-     * Set the value of propertys
-     *
-     * @return  self
-     */ 
-    public function setPropertys(propertysInterface $propertys);
+    public function tag(string $tag = null);
 }
 ?>
